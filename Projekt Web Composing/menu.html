@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Link rel = "shortcut icon" href = "images/ico.png "> 
+		<title>Pyramids</title>
+		<meta name="viewport" content="width=device=width,initial-scale=1.0">		
+		<link href="style_menu.css" rel="Stylesheet" type ="Text/css"/>
+	</head>
+	
+	<body class="mybody">
+	
+		<header>
+			<figure class="logo"></figure>
+		</header>
+		
+		<button onclick="myFunction()">MENU</button>
+	
+	
+		<nav class="nav" id="mynav">
+			<ul>
+				<li><a href="intro.html" target="content">Home</a></li>
+				<li><a href="#">Over The World</a>
+					<ul>
+						<li><a href="mesopotamia.html" target="content">Mesopotamia</a></li>
+						<li><a href="greece.html" target="content">Greece</a></li>
+						<li><a href="latin.html" target="content">Latin America</a></li>
+						<li><a href="china.html" target="content">China</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Egyptian Pyramids</a>
+				<ul>
+						<li><a href="cheops.html" target="content">Pyramid of Cheops</a></li>
+						<li><a href="djoser.html" target="content">Pyramid of Djoser</a></li>
+						<li><a href="chefren.html" target="content">Pyramid of Chefren</a></li>
+						
+					</ul></li>
+				<li><a href="conspiracy.html" target="content">Conspiracy theories</a></li>
+				<li><a href="movies.html" target="content">Movies</a></li>
+			</ul>
+		
+		</nav>
+	
+		
+		<main id="maine">
+			<article id="article">
+						<iframe class="contents" id="iframe" src="intro.html"  frameborder="0" name="content"></iframe>
+						</article>
+						<summary id="summary">
+						<iframe class="additionalcont" src="social.html" frameborder="0" name="content"></iframe>
+					</summary>
+		</main>
+		
+		<script>
+function myFunction() {
+  var x = document.getElementById("mynav");
+	var y =document.getElementById("article");
+	var z =document.getElementById("iframe");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+		y.style.height="20vh";
+		z.style.height="20vh";
+  } else {
+		y.style.height="50vh";
+		z.style.height="50vh";
+    x.style.display = "none";
+  }
+}
+</script>
+		
+		<footer>
+				<p>Work done by MK</p>
+			</footer>
+	</body>
+</html>

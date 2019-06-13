@@ -1,0 +1,64 @@
+*{
+    font-family: sans-serif,arial;
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.questions{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.info{
+    font-family: sans-serif,arial;
+    font-size: 15px;
+}
+.medialist{
+    list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.medialist li{
+   margin: 0 auto;
+   padding:60px;
+   
+}
+
+.medialist li::before{
+    
+  padding-right: 8px;
+  color: blue; 
+}
+#foto{
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+  margin-top:10px;
+  border-radius: 5px;
+}
+
+#foto img{
+    max-width: 500px;
+    width: auto;
+    height: auto;    
+    border-radius: 10px;
+    border:2px solid#770709;
+}
+.movie{
+    display:block;
+    margin:0 auto;
+}
+
